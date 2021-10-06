@@ -1,0 +1,10 @@
+canvas{
+    margin-top: 40px;
+    animation-name: ANIMATION;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ANIMATION {
+    from {box-shadow: 1px 1px 38px maroon;}
+    to{box-shadow: 1px 1px 38px red;}
+}
